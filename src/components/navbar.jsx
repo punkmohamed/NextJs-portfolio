@@ -122,13 +122,13 @@ const Navbar = () => {
                             variants={listVariants}
                             initial="closed"
                             animate="opened"
-                            className=" z-40 absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center gap-8 justify-center text-4xl" >
+                            className="z-40 absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center gap-8 justify-center text-4xl" >
                             {links.map((link) => (
                                 <motion.div
                                     variants={listItemVariants}
                                     key={link.title}>
                                     <Link href={link.url} > 
-                                        {link.title}
+                                        <button className=" p-4 ">{link.title}</button>
                                     </Link>
                                 </motion.div>
                             ))}

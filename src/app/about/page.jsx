@@ -35,10 +35,10 @@ const AboutPage = () => {
             transition={{ duration: 1 }}
         >
             {/* CONTAINER */}
-            <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
+            <div className="h-full overflow-scroll overflow-x-hidden lg:flex" ref={containerRef}>
                 {/* TEXT CONTAINER */}
 
-                <div className="p-4 sm:p-8 md:p-8 lg:p-8 xl:p-8 flex flex-col lg:w-2/3 lg:pr-0 xl:w-1/2">
+                <div className="p-4 sm:p-8 md:p-8 lg:p-8 xl:p-8 flex flex-col  md:gap-32 lg:gap-48 xl:gap-64  lg:w-2/3 lg:pr-0 xl:w-1/2">
                     {/* BIOGRAPHY CONTAINER */}
                     <div className="flex flex-col gap-12 justify-center">
                         {/* BIOGRAPHY IMAGE */}
@@ -55,7 +55,6 @@ const AboutPage = () => {
                         <p className="text-lg">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
                             harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-
                             suscipit! Vel doloremque numquam quam nihil.
                         </p>
                         {/* BIOGRAPHY QUOTE */}

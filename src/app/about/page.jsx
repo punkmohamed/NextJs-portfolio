@@ -62,7 +62,7 @@ const AboutPage = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </span>
                         {/* BIOGRAPHY SIGN SVG*/}
-                        <div className="self-end mr-6 ">
+                        <div className="self-end ">
                             <svg width="400" height="180" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M10 80 Q 60 20, 120 80 T 240 80"
                                     stroke="black" fill="transparent" stroke-width="3" />
